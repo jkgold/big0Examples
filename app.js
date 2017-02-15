@@ -1,12 +1,12 @@
 "use strict";
 
- Band = function(name, genre) {
-   this.name = name;
-   this.genre = genre;
-   this.isGroovy = false;
+ Cup = function(color, size) {
+   this.color = color;
+   this.size = size;
+   this.isFull = false;
  }
-Band.prototype.groovy= function() {
-  this.isGroovy = true;
+Band.prototype.fill= fn() {
+  this.isFull = true;
 };
 
 
