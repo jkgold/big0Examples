@@ -4,7 +4,7 @@
    this.size = size;
    this.isFull = false;
  }
-Cup.prototype.fill= fn() {
+Cup.prototype.fill= function() {
   this.isFull = true;
 };
 
