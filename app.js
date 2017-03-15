@@ -26,6 +26,6 @@ function exampleOfBigO2(){
         console.log(array[j]);
     }
 }
-    
+    exampleOfBig02();
 
 
